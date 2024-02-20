@@ -45,6 +45,16 @@ def make_parser():
         help="Event origin end date search parameter, "
         "in YYYY-MM-DD format (e.g. 2020-12-31).",
     )
+    fetch.add_argument(
+        "-gsoy",
+        "--global_summary-year",
+        action="store_true",
+        help="The Global Summary of the Year (GSOY) dataset includes climate"
+        + " data for several thousand locations worldwide. Data files contain"
+        + " 58 climatological variables computed from the summary of the day"
+        + " observations of the Global Historical Climatology Network Daily"
+        + " dataset (GHCN-D).",
+    )
 
     repl = subparsers.add_parser(
         "interactive",
