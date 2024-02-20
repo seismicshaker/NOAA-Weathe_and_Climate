@@ -1,4 +1,4 @@
-# NOAA: Weather and Climate analysis
+# NOAA: Weather and Climate
 
 ## About the Project
 
